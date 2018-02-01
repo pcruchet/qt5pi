@@ -6,7 +6,7 @@ Editer le fichier ***/etc/apt/sources.list*** et décommenter la ligne **deb-src
 
 	sudo nano /etc/apt/sources.list
 
-Pour un raspberry avec **== Raspbian Stretch ==** il est nécessaire de mettre à jour le firmeware.
+Pour un raspberry avec **Raspbian Stretch** il est nécessaire de mettre à jour le firmeware.
 
 	sudo rpi-update
 	sudo reboot
