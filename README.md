@@ -9,7 +9,7 @@ Editer le fichier ***/etc/apt/sources.list*** et décommenter la ligne **deb-src
 
 	sudo nano /etc/apt/sources.list
 
-Pour un raspberry avec **Raspbian Stretch** il est nécessaire de mettre à jour le firmeware.
+Pour un raspberry avec **Raspbian Stretch** il est nécessaire de mettre à jour le firmeware et le noyau afin d'obtenir la dernière version.
 
 	sudo rpi-update
 	sudo reboot
@@ -27,6 +27,7 @@ Cloner le dépôt :
 
 Décompresser l'archive :
 
+	cd qt5pi
 	tar zxvf qt5pi.tar.gz
 	
 Deplacer le dossier qt5pi dans **/usr/local/**
