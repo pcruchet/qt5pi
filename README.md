@@ -2,7 +2,7 @@
 
 
 Ce dépôt permet de déployer sur un Raspberry pi les bibliothèques nécessaires à la compilation croisée en C++ avec le framework Qt version 5.11.3 et la gestion de base de données sous Mysql.
-La version de Raspbian utilisée est Buster with desktop 2019-09-26 [Raspbian](https://www.raspberrypi.org/downloads/raspbian/)
+La version de Raspbian utilisée est ***Buster with desktop 2019-09-26*** téléchargeable sous [Raspbian](https://www.raspberrypi.org/downloads/raspbian/)
 
 La chaîne de développement croisée est réalisée à partir des informations d'écrites sur le site [RaspberryPi2EGLFS](https://wiki.qt.io/RaspberryPi2EGLFS), le site [Cross-compile and deploy Qt 5.12 for Raspberry Pi](https://mechatronicsblog.com/cross-compile-and-deploy-qt-5-12-for-raspberry-pi/) et le site de [Marc Wapelhorst](http://wapel.de/?p=641).
 
@@ -10,7 +10,7 @@ Editer le fichier ***/etc/apt/sources.list*** et décommenter la ligne **deb-src
 
 	sudo nano /etc/apt/sources.list
 
-Pour un raspberry avec **Raspbian Stretch** il est nécessaire de mettre à jour le firmeware et le noyau afin d'obtenir la dernière version.
+Pour un raspberry avec **Raspbian Buster** il est nécessaire de mettre à jour le firmeware et le noyau afin d'obtenir la dernière version.
 
 	sudo rpi-update
 	sudo reboot
