@@ -40,7 +40,7 @@ Deplacer le dossier qt5pi dans **/usr/local/**
     sudo mv qt5pi /usr/local/
     sudo chown pi:pi /usr/local/qt5pi
 
-Pour obtenir la saise avec un clavier AZERTY dans les interfaces développées sous Qt, il est nécessaire de modifier la variable d'environnement **XKB_DEFAULT_LAYOUT** avec la valeur **fr** dans le fichier **~/.profile**. 
+Pour obtenir la saise avec un clavier AZERTY dans les interfaces développées sous Qt, il est nécessaire de modifier la variable d'environnement **XKB_DEFAULT_LAYOUT** avec la valeur **fr** dans le fichier **/etc/profile**. 
 
 	
     sudo nano /etc/profile
